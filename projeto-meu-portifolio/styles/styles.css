@@ -1,0 +1,323 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*------------CABEÇALHO------------*/
+.cabecalhoPrincipal {
+    background: #3a141d;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalhoPrincipal .container{
+    width: 93%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.container .cabecalho-titulo a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+
+.container .cabecalho-titulo a:hover{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}   
+
+.cabecalhoPrincipal .cabecalho-nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cabecalhoPrincipal .cabecalho-nav-link:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*------------MAIN------------*/
+.conteudoPrincipal{
+    border-top: 1px solid #3a141d;
+    background: #0e0b16;
+    height: auto;
+}
+
+.conteudoPrincipal-saudacao{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 9%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.conteudoPrincipal-img{
+    width: 70%;
+}
+
+.conteudoPrincipal-saudacao img{
+    width: 60%;
+    margin-left: 35%;
+    
+    border-radius: 15px;
+}
+
+.conteudoPrincipal-saudacao img:hover{
+    border-color: #3b2529;
+    
+    transition: 1s;
+}
+
+.conteudoPrincipal-txt{
+    color: white;
+    width: 55%;
+    margin-right: 12%;
+}
+
+.conteudoPrincipal-txt legend{
+    font-size: 50px;
+    font-family: 'Arbutus Slab', serif;
+}
+
+/*------------SOBRE------------*/
+
+.conteudoSobre {
+    border-bottom: 1px solid #4e5053;
+}
+
+.conteudoSobre .container {
+    display: flex;
+    color: white;
+    background: #0e0b16;
+    flex-direction: column;
+    border-bottom: 1px solid #ffffff;
+}
+
+.conteudoSobre-titulo {
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.conteudoSobre-titulo:hover {
+    color: rgb(20, 20, 20);
+    transition: 1s;
+}
+
+.conteudoSobre-paragrafo {
+    font-size: 35px;
+    padding: 4% 4% 5% 10%;
+    line-height: 1.5;
+}
+
+.conteudoSobre-botao{
+    border: 2px solid  #380d0d;
+    border-radius: 5px;
+    background-color: #4e5053;
+    width: 15%;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0 0 5% 10%;
+}
+
+.conteudoSobre-botao:hover{
+    transition: 1s;
+    border-color: white;
+    background-color: violet;
+    cursor: pointer;
+}
+
+/*------------COMPETÊNCIAS------------*/
+
+.conteudoCompetencias {
+    background: #0e0b16;
+    height: auto;
+    color: white;
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+}
+
+.conteudoCompetencias .container{
+    width: 90%;
+}   
+
+.conteudoCompetencias .container legend {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 6% 0 3% 10%;
+    cursor: pointer;   
+}
+
+.conteudoCompetencias .container legend:hover{
+    color: rgb(66, 18, 18);
+    transition: 1s;
+}
+
+.competenciasSkills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.competenciasSkills .conteudoCompetencias-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.competenciasSkills .conteudoCompetencias-skills2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudoCompetencias .conteudoCompetencias-skills {
+    font-size: 20px;
+    width: 50%;
+    padding: 0% 0 5% 10%;
+    
+}
+
+.container .conteudoCompetencias-skills .html{
+    font-size: 5px;
+    background: rgb(55, 24, 226);
+    width: 50%;
+}
+
+.container .conteudoCompetencias-skills .css{
+    font-size: 5px;
+    background: rgb(55, 24, 226);
+    width: 30%;
+}
+
+.container .conteudoCompetencias-skills .js{
+    font-size: 5px;
+    background: rgb(55, 24, 226);
+    width: 10%;
+}
+
+
+
+.conteudoCompetencias .conteudoCompetencias-skills2 {
+    font-size: 20px; 
+    padding: 0% 0 5% 10%;
+    width: 50%;
+}
+
+.container .conteudoCompetencias-skills2 .git{
+    font-size: 5px;
+    background: rgb(55, 24, 226);
+    width: 35%;
+}
+
+
+
+/*------------PORTIFOLIO------------*/
+
+.conteudoPortifolio {
+    background: #0e0b16;
+    height: auto;
+    color: white;
+    border-bottom: 1px solid #ffffff;
+}
+
+.conteudoSobre .container legend {
+    font-size: 30px;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.conteudoPortifolio .container {
+    align-items: center;
+}
+
+.conteudoPortifolio .container legend {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 4% 0 3% 79%; 
+    cursor: pointer;   
+}
+
+.conteudoPortifolio .container legend:hover {
+    color: rgb(66, 18, 18);
+    transition: 1s;    
+}
+
+.conteudoPortifolio .conteudoPortifolio-paragrafo {
+    padding: 0 4% 2% 9%;
+    line-height: 1.5;    
+}
+
+.conteudoPortifolio-botao{
+    width: 20%;
+    margin: 2% 0 2% 40%;
+}
+
+.conteudoPortifolio-botao:hover{
+    transition: 1s;
+    border-color: white;
+    cursor: pointer;
+    width: 20.1%;
+}
+
+.conteudoPortifolio-botao2{
+    width: 20%;
+    background: #e4e5e2;
+    margin-left: 39.2%;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.conteudoPortifolio-botao2:hover{
+    transition: 1s;
+    border-color: white;
+    background-color: violet;
+    cursor: pointer;
+}
+
+/*------------FOOTER------------*/
+
+.footer{
+    background: #fefefe;
+    padding: 3%; 
+    text-align: center;
+}
+
+.footer .footer-nav-link {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+.footer .footer-nav-link:hover {
+    font-weight: bold;
+}
+
+.footer-alt2 {
+    text-align: center;
+}
